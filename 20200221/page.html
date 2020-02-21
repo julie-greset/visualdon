@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <svg viewBox="0 0 600 500">
-      <!--BODY-->
-  <rect x="100" y="120" width="200" height="140" fill="#65CACA" />
-  <!--EYES-->
-  <circle cx="140" cy="150" r="20" fill="white" />
-  <circle cx="140" cy="150" r="10" fill="black" />
-  <circle cx="260" cy="150" r="20" fill="white" />
-  <circle cx="260" cy="150" r="10" fill="black" />
-  <!--NOSE-->
-  <circle cx="200" cy="170" r="10" fill="red" />
-  <!--MOUTH-->
-  <rect x="150" y="200" width="100" height="40" fill="grey" />
-  <!--ANTENNA-->
-  <path d="M 200 120 L 160 80 200 40 160 0" fill="none" stroke="red" stroke-width="4" />
-  
-    </svg>
+    <style>
+        @keyframes blink {
+            from {
+                stroke-width: 2
+            }
+            to {
+                stroke-width: 8
+            }
+        }
 
-    <script>
+        .eyeball {
+        animation-duration: 3s;
+        animation-name: blink;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        stroke : black;
+        fill: white;
+        }
+    </style>
+    <body>
+        <svg viewBox="0 0 600 500">
+        <!--BODY-->
+        <rect x="100" y="120" width="200" height="140" fill="#65CACA" />
+        <!--EYES-->
+        <circle class = "eyeball" cx="140" cy="150" r="20" fill="white" />
+        <circle cx="140" cy="150" r="10" fill="black" />
+        <circle class = "eyeball" cx="260" cy="150" r="20" fill="white" />
+        <circle cx="260" cy="150" r="10" fill="black" />
+        <!--NOSE-->
+        <circle cx="200" cy="170" r="10" fill="red" />
+        <!--MOUTH-->
+        <rect id="mouth" x="150" y="200" width="100" height="40" fill="grey" />
+        <!--ANTENNA-->
+        <path d="M 200 120 L 160 80 200 40 160 0" fill="none" stroke="red" stroke-width="4" />
+        </svg>
 
-    </script>
+        <script>
+            const mouth = document.getElementById('mouth');
+            let isGrey = true;
+            mouth.addEventListener('click', () => {
+                isGrey = !isGrey
+                mouth.setAttribute('fill', isGrey ? 'grey' : 'red')
+            })
+        </script>
   </body>
 </html>
