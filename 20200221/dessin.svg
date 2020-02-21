@@ -1,0 +1,23 @@
+<!--
+  L'ordre du code détermine la position des éléments
+  svg width et height détermine la zone qui sera visible
+  x et y déterminent la position des éléments
+-->
+
+ <svg height="600" width="500" xmlns="http://www.w3.org/2000/svg">
+ <!--BODY-->
+  <rect x="100" y="120" width="200" height="140" fill="#65CACA" />
+  <!--EYES-->
+  <circle cx="140" cy="150" r="20" fill="white" />
+  <circle cx="140" cy="150" r="10" fill="black" />
+  <circle cx="260" cy="150" r="20" fill="white" />
+  <circle cx="260" cy="150" r="10" fill="black" />
+  <!--NOSE-->
+  <circle cx="200" cy="170" r="10" fill="red" />
+  <!--MOUTH-->
+  <rect x="150" y="200" width="100" height="40" fill="grey" />
+  <!--ANTENNA-->
+  <path d="M 200 120 L 160 80" fill="none" stroke="red" stroke-width="4" />
+  <path d="M 160 80 L 200 40" fill="none" stroke="red" stroke-width="4" />
+  <path d="M 200 40 L 160 0" fill="none" stroke="red" stroke-width="4" />
+</svg> 
