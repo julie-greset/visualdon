@@ -9,7 +9,7 @@ const result = fichier
     .split('\n')
     // Séparation des données après chaque point-virgule
     .map(ligne => ligne.split(';'))
-    // Affichage des titres
+    // Attributation de titres aux index
     .map(c => ({
         titre: c[1],
         artiste: c[2],
@@ -17,9 +17,30 @@ const result = fichier
         beats: c[4],
         valence : c[9]
     }))
-    .filter(c => c.genre === 'pop')
-    //.filter(c => Math.max(c.beats))
-;
+    // Création d'un tableau avec les genres de chaque titres
+    .map(c => c.genre)
+    // Obtention du nombre de chaque genre
+    .reduce((res, genre) => {
+        const exist = res.find(d => d.genre === genre)
+        if (exist) {
+            return [
+                ...res.filter(d => d.genre !== genre),
+                {
+            ...exist,
+            nb: exist.nb + 1
+                }
+            ]
+        }
+        // Si le genre n'existait pas encore, on créé l'entrée et on commence la comptabilisation
+        return [
+            ...res,
+            {
+                genre,
+                nb: 1
+            }
+        ]
+    } ,[])
+    ;
 
 console.log(
     JSON.stringify(result, null, 2)
