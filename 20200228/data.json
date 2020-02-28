@@ -1,0 +1,51 @@
+[
+  {
+    "titre": "Beautiful People (feat. Khalid)",
+    "artiste": "Ed Sheeran",
+    "genre": "pop",
+    "beats": "93",
+    "valence": "55"
+  },
+  {
+    "titre": "I Don't Care (with Justin Bieber)",
+    "artiste": "Ed Sheeran",
+    "genre": "pop",
+    "beats": "102",
+    "valence": "84"
+  },
+  {
+    "titre": "How Do You Sleep?",
+    "artiste": "Sam Smith",
+    "genre": "pop",
+    "beats": "111",
+    "valence": "35"
+  },
+  {
+    "titre": "Someone You Loved",
+    "artiste": "Lewis Capaldi",
+    "genre": "pop",
+    "beats": "110",
+    "valence": "45"
+  },
+  {
+    "titre": "Antisocial (with Travis Scott)",
+    "artiste": "Ed Sheeran",
+    "genre": "pop",
+    "beats": "152",
+    "valence": "91"
+  },
+  {
+    "titre": "Talk",
+    "artiste": "Khalid",
+    "genre": "pop",
+    "beats": "136",
+    "valence": "35"
+  },
+  {
+    "titre": "Cross Me (feat. Chance the Rapper & PnB Rock)",
+    "artiste": "Ed Sheeran",
+    "genre": "pop",
+    "beats": "95",
+    "valence": "61"
+  }
+]
