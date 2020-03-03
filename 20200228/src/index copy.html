@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <body>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- <script src="index.js"></script> -->
+        <h1>Les genres de musiques du Top 50 sur Spotify en 2019</h1>
+        <script>
+            const DATA = [
+                {
+                    "genre": "trap",
+                    "nb": 1
+                },
+                {
+                    "genre": "rap",
+                    "nb": 4
+                },
+                {
+                    "genre": "reggaeton",
+                    "nb": 4
+                },
+                {
+                    "genre": "hip hop",
+                    "nb": 4
+                },
+                {
+                    "genre": "boy band",
+                    "nb": 1
+                },
+                {
+                    "genre": "r&b",
+                    "nb": 1
+                },
+                {
+                    "genre": "latin",
+                    "nb": 5
+                },
+                {
+                    "genre": "brostep",
+                    "nb": 2
+                },
+                {
+                    "genre": "edm",
+                    "nb": 3
+                },
+                {
+                    "genre": "pop",
+                    "nb": 25
+                }
+            ]
+
+            console.log(DATA);
+            const WIDTH = 700
+            const HEIGHT = 300
+            const svg = d3.select('body').append('svg').attr('width', WIDTH+20).attr('height', HEIGHT+20);
+            const MARGIN = 10
+            const MARGIN_BOTTOM = 0
+            const MARGIN_LEFT = 30
+            const BAR_WIDTH = (WIDTH / DATA.length )
+            const GRAPH_HEIGHT = HEIGHT
+
+            // echelle hauteur
+
+            const heightScale = d3.scaleLinear()
+                .domain([0, d3.max(DATA, d => d.nb)]) // le maximum de nombre de musique pour un genre
+                .range([0, HEIGHT]);
+            
+            // échelle de couleur
+            const fillScale = d3.scaleLinear()
+                .domain([0, d3.max(DATA, d => d.nb)])
+                .range(['grey', 'green']);
+
+            // echelle axe y
+            const yScale = d3.scaleLinear()
+                .domain([0, d3.max(DATA, d => d.nb)])
+                .range([GRAPH_HEIGHT, 0]);
+            
+            //graph de barres
+            svg.selectAll('rect')
+                .data(DATA)
+                .enter()
+                .append('rect')
+                .attr('x', (d, i) =>  i * BAR_WIDTH)
+                .attr('width', BAR_WIDTH - MARGIN)
+                // nous devons passer d.nb à heightScale
+                .attr('y', d => HEIGHT - heightScale(d.nb))
+                .attr('height', d => heightScale(d.nb))
+                .attr('fill', d => fillScale(d.nb));
+            
+            // nom des genres
+            const genreNames = svg.append('g')
+            .attr('transform', `translate(${MARGIN_LEFT}, 0)`);
+
+            genreNames.selectAll('text')
+            .data(DATA)
+            .enter()
+            .append('text')
+            .attr('x', (d, i) => i * BAR_WIDTH  + BAR_WIDTH / 4)
+            .attr('y', HEIGHT - 10)
+            .attr('fill', 'white')
+            .attr('text-anchor', 'middle')
+            .attr('font-family', 'sans-serif')
+            .attr('font-size', 20)
+            .text(d => d.genre);
+
+            //axe y
+            const axisY = d3.axisRight().scale(yScale)
+            .tickFormat(d => `${d}`)
+            .ticks(5);
+
+            svg.append('g')
+                .attr('transform', `translate(${700})`)
+                .attr('fill', 'white')
+                .call(axisY);
+
+        </script>
+    </body>
+</html>
