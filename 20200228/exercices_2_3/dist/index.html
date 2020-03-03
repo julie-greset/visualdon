@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <body>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- <script src="index.js"></script> -->
+        <h1>Les genres de musiques du Top 50 sur Spotify en 2019</h1>
+        <script>var DATA = [{
+  "genre": "trap",
+  "nb": 1
+}, {
+  "genre": "rap",
+  "nb": 4
+}, {
+  "genre": "reggaeton",
+  "nb": 4
+}, {
+  "genre": "hip hop",
+  "nb": 4
+}, {
+  "genre": "boy band",
+  "nb": 1
+}, {
+  "genre": "r&b",
+  "nb": 1
+}, {
+  "genre": "latin",
+  "nb": 5
+}, {
+  "genre": "brostep",
+  "nb": 2
+}, {
+  "genre": "edm",
+  "nb": 3
+}, {
+  "genre": "pop",
+  "nb": 25
+}]; //console.log(DATA);
+
+var WIDTH = 700;
+var HEIGHT = 700;
+var svg = d3.select('body').append('svg').attr('width', WIDTH + 20).attr('height', HEIGHT + 20);
+var MARGIN = 10;
+var MARGIN_BOTTOM = 0;
+var MARGIN_LEFT = 30;
+var BAR_WIDTH = WIDTH / DATA.length;
+var GRAPH_HEIGHT = HEIGHT;</script>
+    </body>
+</html>
