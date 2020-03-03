@@ -13,9 +13,10 @@ const result = fichier
     .map(c => ({
         titre: c[1],
         artiste: c[2],
-        genre: c[3],
-        beats: c[4],
-        valence : c[9]
+        sous_genre: c[3],
+        genre: c[4],
+        beats: c[5],
+        valence : c[10]
     }))
     // Création d'un tableau avec les genres de chaque titres
     .map(c => c.genre)
@@ -51,15 +52,16 @@ indexes
 
 1 - titre
 2 - artiste
-3 - genre
-4 - beats par minute
-5 - energie
-6 - dancability
-7 - volume en db
-8 - liveness
-9 - valence (positive mood)
-10 - durée
-11 - accousticness
-12 - speechiness
-13 - popularité
+3 - sous-genre
+4 - genre
+5 - beats par minute
+6 - energie
+7 - dancability
+8 - volume en db
+9 - liveness
+10 - valence (positive mood)
+11 - durée
+12 - accousticness
+13 - speechiness
+14 - popularité
 */
