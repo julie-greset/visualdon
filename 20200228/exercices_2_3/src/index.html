@@ -21,6 +21,7 @@
         const WIDTH = 800
         const HEIGHT = 300
         const MARGIN = 5
+        const MARGIN_TOP = HEIGHT / 10
         const MARGIN_BOTTOM = HEIGHT / 10
         const GRAPH_HEIGHT = HEIGHT - MARGIN_BOTTOM
         const MARGIN_LEFT = WIDTH / 10
@@ -40,22 +41,23 @@
             {"genre": "brostep", "nb": 2},
             {"genre": "edm", "nb": 3},
             {"genre": "pop", "nb": 25}
-        ]
+        ].slice().sort((a, b) => d3.ascending(a.nb, b.nb)) // Triage des données du plus petit nb au plus grand
   
         const BAR_WIDTH = GRAPH_WIDTH / DATA.length
         
         // Echelle hauteur
+        // Conversion du range des données en range de pixel
         const yScale = d3.scaleLinear()
             .domain([0, d3.max(DATA, d => d.nb)])
-            .range([GRAPH_HEIGHT, 0])
+            .range([GRAPH_HEIGHT - MARGIN_TOP, 0])
 
         // Echelle couleur
         const fillScale = d3.scaleLinear()
             .domain([0, d3.max(DATA, d => d.nb)])
-            .range(['white', '#1ED760']);
+            .range(['#DBF9E6', '#1ED760']);
         
         const bars = svg.append('g')
-            .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
+            .attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`)
         
         bars.selectAll('rect')
             .data(DATA)
@@ -64,8 +66,8 @@
             .attr('x', (d, i) =>  i * BAR_WIDTH)
             .attr('width', BAR_WIDTH - MARGIN)
             .attr('y', d => yScale(d.nb))
-            .attr('height', d => GRAPH_HEIGHT - yScale(d.nb))
-            .attr('fill', d => fillScale(d.nb));
+            .attr('height', d => GRAPH_HEIGHT -MARGIN_TOP - yScale(d.nb))
+            .attr('fill', d => fillScale(d.nb))
             //.attr('fill', 'steelblue')
         
         const genreNames = svg.append('g')
@@ -87,7 +89,7 @@
             .ticks(5)
 
         svg.append('g')
-            .attr('transform', `translate(${MARGIN_LEFT - 3})`)
+            .attr('transform', `translate(${MARGIN_LEFT - 3}, ${MARGIN_TOP})`)
             .call(axisY)
             .attr('font-size', 13)
 

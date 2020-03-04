@@ -20,6 +20,7 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: #1ED760;
+    padding-top: 20px;
 }
 
 img {
@@ -29,5 +30,5 @@ img {
 }
 
 #chart {
-    padding-top: 100px;
+    padding-top: 150px;
 }
