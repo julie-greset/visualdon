@@ -1,98 +1,18 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html>
-    <head>
-        <link type="text/css" rel="stylesheet" href="style.css">
-        <title>Exercice 2 - VisualDon</title>
-        <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700,900&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <!-- <script src="index.js"></script> -->
-        <h1>Les genres de musiques du Top 50 sur Spotify en 2019</h1>
-        <img
-            src="img/spotify-logo.svg" 
-            alt="spotify logo"
-            height="50px"
-        />
-        <div id="chart"></div>
-        <script>
-            
-        const WIDTH = 800
-        const HEIGHT = 300
-        const MARGIN = 5
-        const MARGIN_TOP = HEIGHT / 10
-        const MARGIN_BOTTOM = HEIGHT / 10
-        const GRAPH_HEIGHT = HEIGHT - MARGIN_BOTTOM
-        const MARGIN_LEFT = WIDTH / 10
-        const GRAPH_WIDTH =  WIDTH - MARGIN_LEFT
-  
-        const svg = d3.select('#chart').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
-        d3.select("#chart").attr("align","center"); // alignement du graphique
-  
-        const DATA = [
-            {"genre": "trap", "nb": 1},
-            {"genre": "rap", "nb": 4},
-            {"genre": "reggaeton","nb": 4},
-            {"genre": "hip hop", "nb": 4},
-            {"genre": "boy band", "nb": 1},
-            {"genre": "r&b", "nb": 1},
-            {"genre": "latin", "nb": 5},
-            {"genre": "brostep", "nb": 2},
-            {"genre": "edm", "nb": 3},
-            {"genre": "pop", "nb": 25}
-        ].slice().sort((a, b) => d3.ascending(a.nb, b.nb)) // Triage des données du plus petit nb au plus grand
-  
-        const BAR_WIDTH = GRAPH_WIDTH / DATA.length
-        
-        // Echelle hauteur
-        // Conversion du range des données en range de pixel
-        const yScale = d3.scaleLinear()
-            .domain([0, d3.max(DATA, d => d.nb)])
-            .range([GRAPH_HEIGHT - MARGIN_TOP, 0])
 
-        // Echelle couleur
-        const fillScale = d3.scaleLinear()
-            .domain([0, d3.max(DATA, d => d.nb)])
-            .range(['#DBF9E6', '#1ED760']);
-        
-        const bars = svg.append('g')
-            .attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`)
-        
-        bars.selectAll('rect')
-            .data(DATA)
-            .enter()
-            .append('rect')
-            .attr('x', (d, i) =>  i * BAR_WIDTH)
-            .attr('width', BAR_WIDTH - MARGIN)
-            .attr('y', d => yScale(d.nb))
-            .attr('height', d => GRAPH_HEIGHT -MARGIN_TOP - yScale(d.nb))
-            .attr('fill', d => fillScale(d.nb))
-            //.attr('fill', 'steelblue')
-        
-        const genreNames = svg.append('g')
-            .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
-        
-        genreNames.selectAll('text')
-            .data(DATA)
-            .enter()
-            .append('text')
-            .attr('x', (d, i) => i * BAR_WIDTH + BAR_WIDTH / 2)
-            .attr('y', HEIGHT - MARGIN_BOTTOM + 20)
-            .attr('text-anchor', 'middle')
-            .attr('font-family', 'sans-serif')
-            .attr('font-size', 13)
-            .text(d => d.genre)
-        
-        const axisY = d3.axisLeft().scale(yScale)
-            .tickFormat(d => `${d / 1} titres`)
-            .ticks(5)
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Exercice 2 - VisualDon</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700,900&display=swap" rel="stylesheet">
+</head>
 
-        svg.append('g')
-            .attr('transform', `translate(${MARGIN_LEFT - 3}, ${MARGIN_TOP})`)
-            .call(axisY)
-            .attr('font-size', 13)
+<body>
+    <h1>Les genres de musiques du Top 50 sur Spotify en 2019</h1>
+    <img src="img/spotify-logo.svg" alt="spotify logo" height="50px" />
+    <div id="chart"></div>
+    <script src="index.js"></script>
+</body>
 
-        </script>
-    </body>
 </html>

@@ -2,6 +2,8 @@
 
 **Source des données** : https://www.kaggle.com/leonardopena/top50spotify2019/data
 
+**Autres données qui pourraient être intéressantes pour le projet** : https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year et https://www.kaggle.com/leonardopena/top-50-spotify-songs-by-each-country
+
 **Type de format** : CSV
 
 ## Déroulement

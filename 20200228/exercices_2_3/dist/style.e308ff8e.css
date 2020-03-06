@@ -1,0 +1,36 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #1ED760;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chart {
+    padding-top: 150px;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
