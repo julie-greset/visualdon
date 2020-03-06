@@ -24,5 +24,16 @@
 
 - Création d'un fichier data.json avec le nombre de musiques par genre grâce à la commande *node prepare > data.json* dans le Terminal
 
+### Fichier data.js
+
+- Création d'un fichier data.js en remplacement de data.json afin de pouvoir trier le tableau avant d'exécuter le code
+
+### Fichier index.js
+
+- Importation de D3
+- Importation de data.js
+- Création d'un graphique en barre
+
 ### Fichier index.html
 
+- Création d'un fichier index.html lié à index.js pour gérer l'affichage du graphique et la mise en page
