@@ -22,7 +22,7 @@
 
 ### Fichier data.json
 
-- Création d'un fichier data.json avec le nombre de musiques par genre grâce à la commande *node prepare > data.json* dans le Terminal
+- Création d'un fichier data.json avec le nombre de musiques par genre grâce à la commande `node prepare > data.json` dans le Terminal
 
 ### Fichier data.js
 
@@ -36,7 +36,7 @@
 
 ### Fichier index.html
 
-- Création d'un fichier index.html lié à index.js pour gérer l'affichage du graphique et la mise en page
+- Création d'un fichier `index.html` lié à `index.js` pour gérer l'affichage du graphique et la mise en page
 
 ### Live-server
 
