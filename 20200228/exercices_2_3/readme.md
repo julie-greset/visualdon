@@ -43,6 +43,7 @@
 Dans le Terminal :
 
 `cd /Users/juliegreset/Documents/HEIG/VisualDon/GitHub/20200228/exercices_2_3`
+
 `npm run batons:dev`
 
 ### GitHub
@@ -50,6 +51,9 @@ Dans le Terminal :
 Dans le Terminal :
 
 `cd /Users/juliegreset/Documents/HEIG/VisualDon/GitHub` 
+
 `git add .`
+
 `git commit -m "Exercices"`
+
 `git push -u origin master`
