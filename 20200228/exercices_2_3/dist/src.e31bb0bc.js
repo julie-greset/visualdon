@@ -28953,7 +28953,8 @@ var HEIGHT = 300;
 var MARGIN = 5; // espace entre les batons
 
 var MARGIN_TOP = HEIGHT / 10;
-var MARGIN_BOTTOM = HEIGHT / 10;
+var MARGIN_BOTTOM = HEIGHT / 10; // on fait de la place pour les noms
+
 var GRAPH_HEIGHT = HEIGHT - MARGIN_BOTTOM;
 var MARGIN_LEFT = WIDTH / 10;
 var GRAPH_WIDTH = WIDTH - MARGIN_LEFT;
@@ -29026,7 +29027,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56987" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63920" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

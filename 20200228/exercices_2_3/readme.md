@@ -37,3 +37,19 @@
 ### Fichier index.html
 
 - Création d'un fichier index.html lié à index.js pour gérer l'affichage du graphique et la mise en page
+
+### Live-server
+
+Dans le Terminal :
+
+`cd /Users/juliegreset/Documents/HEIG/VisualDon/GitHub/20200228/exercices_2_3`
+`npm run batons:dev`
+
+### GitHub
+
+Dans le Terminal :
+
+`cd /Users/juliegreset/Documents/HEIG/VisualDon/GitHub` 
+`git add .`
+`git commit -m "Exercices"`
+`git push -u origin master`
