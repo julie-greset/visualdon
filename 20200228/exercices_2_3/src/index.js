@@ -15,7 +15,6 @@ const GRAPH_WIDTH = WIDTH - MARGIN_LEFT
 const svg = d3.select('#chart').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
 d3.select("#chart").attr("align", "center"); // alignement du graphique
 
-
 const BAR_WIDTH = GRAPH_WIDTH / DATA.length // largeur des batons
 
 // Echelle hauteur
