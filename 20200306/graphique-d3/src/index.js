@@ -16,7 +16,7 @@ const arcCreator = d3.arc()
     .outerRadius(HEIGHT / 2 - 10) // pour que tout le camembert soit visible
 
 // Echelle couleur
-const fillScale = d3.scaleOrdinal()
+const color = d3.scaleLinear()
     .domain([0, d3.max(DATA, d => d.nb)]) // données en entrée
     .range(['#DBF9E6', '#1ED760']); // données en sortie
 
@@ -41,7 +41,7 @@ pie.selectAll('path')
 .append('path')
 .attr('d', arcCreator)
 // .attr('fill', color)
-.attr('fill', d => fillScale(d.nb))
+.attr('fill', d => color(d.data.nb))
 .attr("stroke", "white")
 .style("stroke-width", "2px")
 
@@ -69,7 +69,7 @@ legend.selectAll('rect')
 .attr('y', (d, i) => i * RECT_WIDTH)
 .attr('width', RECT_WIDTH)
 .attr('height', RECT_WIDTH)
-.attr('fill', d => fillScale(d.nb))
+.attr('fill', d => color(d.data.nb))
 
 // les noms des genres
 legend.selectAll('text')
