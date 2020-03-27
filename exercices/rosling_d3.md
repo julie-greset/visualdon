@@ -6,7 +6,7 @@
   - `config.js` : dimensions du graphique
   - `scales.js`: échelles pour l'axe x, l'axe y et le rayon de chaque bulle
   - `elements.js` : l'année, la signification des axes, le nom du pays lors d'un hover
-- **Pourquoi : ** pour ne pas tout écrire dans le même script (`index.js`). Cela nous permet de changer une seule fois un paramètre dans son fichier de config et qu'il s'actualise automatiquement dans `index.js`.
+- **Pourquoi :** pour ne pas tout écrire dans le même script (`index.js`). Cela nous permet de changer une seule fois un paramètre dans son fichier de config et qu'il s'actualise automatiquement dans `index.js`.
 
 **2. Comment le nom du pays est-il affiché quand la souris passe sur une bulle ?**
 
