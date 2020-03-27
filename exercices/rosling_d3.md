@@ -1,7 +1,7 @@
 **1. Comment et pourquoi le code est-il divisé en plusieurs fichiers ?**
 
 - **Comment :**
-  - `index.html` : éléments constituation la page
+  - `index.html` : éléments constituant la page
   - `index.css` : décoration des éléments
   - `config.js` : dimensions du graphique
   - `scales.js`: échelles pour l'axe x, l'axe y et le rayon de chaque bulle
@@ -11,4 +11,7 @@
 **2. Comment le nom du pays est-il affiché quand la souris passe sur une bulle ?**
 
 - dans `elements.js` : fonction `countryDisplay` qui détermine l'élément (`bubblesGroup`) et les attributs de présentation `font-size` et `text-anchor`
-- dans `index.js` : événement `mouseover` lorsque la souris passe sur une bulle. Définition du positionnement au-dessus de la souris grâce à l'attribut `y` et `d.name` devient le contenu de `countryDisplay`
+- dans `index.js` :
+  - événement `mouseover` lorsque la souris passe sur une bulle
+  - définition du positionnement au-dessus de la souris grâce à l'attribut `y` et `d.name` devient le contenu de `countryDisplay`
+  - événement `mouseout` pour ne plus afficher le texte et le contour noir lorsqu'on n'est plus sur la bulle
