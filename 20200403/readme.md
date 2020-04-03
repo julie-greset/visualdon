@@ -1,22 +1,14 @@
 ## Données utilisées
 
-**Source des données** : https://www.kaggle.com/leonardopena/top50spotify2019/data
+**Source des données** : https://www.kaggle.com/bbissey/barcelonaairbnbgeojson/data#listings.csv
 
-**Type de format** : CSV
+**Type de format** : GeoJSON
 
 ## Déroulement
 
-### Fichier data.js
+### Fichiers
 
-
-
-### Fichier index.js
-
-
-
-### Fichier index.html
-
-
+à suivre
 
 ### Live-server
 
