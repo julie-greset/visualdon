@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "batons:dev": "parcel 20200228/exercices_2_3/src/index.html --out-dir 20200228/exercices_2_3/dist",
-    "batons:dev-suite": "parcel 20200306/graphique-d3/src/index.html --out-dir 20200306/graphique-d3/dist"
+    "batons:dev-suite": "parcel 20200306/graphique-d3/src/index.html --out-dir 20200306/graphique-d3/dist",
+    "carte:dev": "parcel 20200403/src/index.html --out-dir 20200403/dist"
   },
   "repository": {
     "type": "git",
