@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "batons:dev": "parcel 20200228/exercices_2_3/src/index.html --out-dir 20200228/exercices_2_3/dist",
     "batons:dev-suite": "parcel 20200306/graphique-d3/src/index.html --out-dir 20200306/graphique-d3/dist",
-    "carte:dev": "parcel 20200403/src/index.html --out-dir 20200403/dist"
+    "carte:dev": "parcel 20200403/src/index.html --out-dir 20200403/dist",
+    "graph:projet": "parcel 20200424/src/index.html --out-dir 20200424/dist"
   },
   "repository": {
     "type": "git",
