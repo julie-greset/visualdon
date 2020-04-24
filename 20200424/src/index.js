@@ -2,10 +2,10 @@ import * as d3 from 'd3';
 import DATA from './data' // chargement du fichier data.js
 
 const WIDTH = 1200
-const HEIGHT = 400
+const HEIGHT = 500
 const MARGIN = 20 // espace entre les batons
 const MARGIN_TOP = HEIGHT / 10
-const MARGIN_BOTTOM = HEIGHT / 10 // on fait de la place pour les noms
+const MARGIN_BOTTOM = HEIGHT / 7 // on fait de la place pour les noms
 const GRAPH_HEIGHT = HEIGHT - MARGIN_BOTTOM
 const MARGIN_LEFT = WIDTH / 10
 const GRAPH_WIDTH = WIDTH - MARGIN_LEFT
@@ -33,9 +33,10 @@ bars.selectAll('rect')
     .attr('y', d => yScale(d.nb)) // position verticale
     .attr('height', d => GRAPH_HEIGHT - MARGIN_TOP - yScale(d.nb)) // hauteur
     .attr('fill', '#ECC35A')
+    .attr('rx', 3);
 
 const dates = svg.append('g')
-    .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
+    .attr('transform', `translate(${MARGIN_LEFT-17}, 20)`)
 
 dates.selectAll('text')
     .data(DATA)
@@ -46,7 +47,12 @@ dates.selectAll('text')
     .attr('text-anchor', 'middle')
     .attr('font-family', 'sans-serif')
     .attr('font-size', 13)
-    .attr('rotate', -65)
+    .style('fill', 'white')
+    .attr('transform', (d, i) => {
+        const x = i * BAR_WIDTH + BAR_WIDTH / 2
+        const y = HEIGHT - MARGIN_BOTTOM + 20
+        return `rotate(-65, ${x}, ${y})`
+    })
     .text(d => d.date)
 
 const axisY = d3.axisLeft().scale(yScale)
@@ -54,6 +60,9 @@ const axisY = d3.axisLeft().scale(yScale)
     .ticks(5)
 
 svg.append('g')
-    .attr('transform', `translate(${MARGIN_LEFT - 3}, ${MARGIN_TOP})`)
+    .attr('transform', `translate(${MARGIN_LEFT - 20}, ${MARGIN_TOP})`)
     .call(axisY)
     .attr('font-size', 13)
+    .attr('color', 'white')
+
+    
