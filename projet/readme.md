@@ -1,19 +1,20 @@
 ### Jeu de données
 
-https://www.kaggle.com/rtatman/lego-database
+Données personnelles (pas encore prêtes)
 
 ### Projet
 
 Le projet se fera en collaboration avec Ingrid Sorg : [github.com/ingridsorg/]()
 
-Le but du projet est de raconter l'histoire de Lego au fil du temps, en répondant aux questions suivantes :
+Le but de notre projet est raconter l’histoire de nos vies durant les 30 premiers jours du confinement. En effet nous nous sommes basées sur les nombres de pas réalisés durant cette période, lesquels nous ont amené à nous poser les questions suivantes :
 
-- Comment la taille des sets a-t-elle évoluée au fil du temps ?
-- De quel thèmes les sets parlent-ils le plus ?
-- Quelles couleurs sont associées avec quel thème et comment cela a-t-il évolué ?
-- Quelles couleurs reviennent le plus ?
-
-Certaines de ces questions sont directement reprises des inspirations que proposent le jeu de données. Nous préçiseront plus en détails les données étudiées par la suite.
+- Combien de pas avons réalisé chacune d’entre nous durant ces premiers 30 jours ?
+- A quel moment avons nous fait les plus grand nombre de pas et pourquoi ?
+- Quels sont les activités y liées?
+- Combine de fois sommes nous sorties ?
+- Combine de fois somme nous sorties pour faire des course?
+- Quels sont les produits achetés durant le confinement ?
+- Entre autres. 
 
 ### Représentation
 
