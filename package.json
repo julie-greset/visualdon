@@ -8,7 +8,8 @@
     "batons:dev": "parcel 20200228/exercices_2_3/src/index.html --out-dir 20200228/exercices_2_3/dist",
     "batons:dev-suite": "parcel 20200306/graphique-d3/src/index.html --out-dir 20200306/graphique-d3/dist",
     "carte:dev": "parcel 20200403/src/index.html --out-dir 20200403/dist",
-    "graph:projet": "parcel 20200424/src/index.html --out-dir 20200424/dist"
+    "graph:projet": "parcel 20200424/src/index.html --out-dir 20200424/dist",
+    "projet:essais": "parcel projet-essais/src/index.html --out-dir projet-essais/dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/julie-greset/visualdon#readme",
   "dependencies": {
     "@turf/turf": "^5.1.6",
+    "billboard.js": "^1.12.7",
     "cheerio": "^1.0.0-rc.3",
     "d3": "^5.15.0",
     "node-fetch": "^2.6.0",

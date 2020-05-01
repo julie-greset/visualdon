@@ -1,6 +1,27 @@
+### A faire
+
+Nous n'avons pour l'instant pas réussi à commencer notre projet côté code. Nous avons par contre réussi à créer une maquette de ce que nous voulons faire, ce qui va nous économiser beaucoup de temps quand nous allons commencer.
+
+Il reste donc à faire :
+
+- Graphique 1 : comparaison du nombre de pas entre Ingrid et Julie.
+- Partie 1 : activités de Julie
+  - Graphique 2 & 3 : activités par jour à Lausanne et à Genève
+  - Coder les fonctions qui vont permettre d'otenir les valeurs textuelles
+- Partie 2 : courses d'Ingrid
+  - Graphique 4 : courses par jour
+  - Graphique 5 : pie chart du nombre de produits frais
+  - Coder les fonctions qui vont permettre d'otenir les valeurs textuelles
+- Ecriture du storytelling
+- Essayer de rendre tout ça joli comme sur la maquette
+
+### Lien vers le code source de la visualisation
+
+### Lien vers la visualisation publiée
+
 ### Jeu de données
 
-Données personnelles (pas encore prêtes)
+Données personnelles en format JSON. Nous avons commencé par dresser un tableau Excel de ce qu'on voulait représenter. Après réflexion, nous avons décidé de coder en dur les données JSON pour plus de souplesse (il y avait beaucoup de sous-tableaux, irreprésentables en Excel). 
 
 ### Projet
 
@@ -15,7 +36,3 @@ Le but de notre projet est raconter l’histoire de nos vies durant les 30 premi
 - Combine de fois somme nous sorties pour faire des course?
 - Quels sont les produits achetés durant le confinement ?
 - Entre autres. 
-
-### Représentation
-
-La représentation graphique se voudra colorée et originale. Nous déciderons par la suite de quels graphiques il s'agira précisément.
