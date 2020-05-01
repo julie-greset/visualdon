@@ -9,7 +9,8 @@
     "batons:dev-suite": "parcel 20200306/graphique-d3/src/index.html --out-dir 20200306/graphique-d3/dist",
     "carte:dev": "parcel 20200403/src/index.html --out-dir 20200403/dist",
     "graph:projet": "parcel 20200424/src/index.html --out-dir 20200424/dist",
-    "projet:essais": "parcel projet-essais/src/index.html --out-dir projet-essais/dist"
+    "projet:essais": "parcel projet-essais/src/index.html --out-dir projet-essais/dist",
+    "projet": "parcel projet/src/index.html --out-dir projet/dist"
   },
   "repository": {
     "type": "git",
