@@ -6,7 +6,7 @@ const data = require('../../data/dates.json');
 
 export default graphique1 => {
     const div = select(`#${graphique1}`)
-      bb.generate({
+      const chart = bb.generate({
         data: {
           json: {
             julie: data.julie.map(item => item.pas),
@@ -18,16 +18,20 @@ export default graphique1 => {
             x: {
                 type: 'category',
                 categories: data.julie.map(item => item.date),
-                tick: {
-                    
-                }
             },
             // Nommer l'axe y
             y: {
                 tick: {
-                    format: x => `${x} pas`
+                    format: function(x) {
+                        return Math.round(x / 1000) * 1000;
+                    },
+                    values: [0, 1000, 2000, 3000, 4000, 5000, 6000]             
                 }
-            } 
+            }
+            
+        },
+        color : {
+            pattern : ["#A5C8FE", "#FFF0A2"]
         },
         bindto: graphique1,
       })  
