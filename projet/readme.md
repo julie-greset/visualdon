@@ -7,11 +7,12 @@ Il reste donc à faire :
 - Graphique 1 : comparaison du nombre de pas entre Ingrid et Julie.
 - Partie 1 : activités de Julie
   - Graphique 2 & 3 : activités par jour à Lausanne et à Genève
-  - Coder les fonctions qui vont permettre d'otenir les valeurs textuelles
+  - Coder les fonctions qui vont permettre d'obtenir les valeurs textuelles
 - Partie 2 : courses d'Ingrid
-  - Graphique 4 : courses par jour
-  - Graphique 5 : pie chart du nombre de produits frais
-  - Coder les fonctions qui vont permettre d'otenir les valeurs textuelles
+  - Graphique 4 : nombre de sorties pour faire les courses durant les premiers 30 jours 
+  - Graphique 5 : pie chart du nombre de produits frais vs conserves 
+  - Graphique 5 : pie chart du nombre de trouvés vs pas trouvés
+  - Coder les fonctions qui vont permettre d'obtenir les valeurs textuelles
 - Ecriture du storytelling
 - Essayer de rendre tout ça joli comme sur la maquette
 
