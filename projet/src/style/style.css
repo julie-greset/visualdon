@@ -4,9 +4,119 @@
 
 body {
     font-family: 'Roboto';
+    padding : 0px;
+    margin : 0px;
+}
+
+#cover img {
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
+    margin-top : 100px;
+    margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
+    font-size: 40px;
+}
+
+.intro-text {
+    margin: 0 auto;
+    width: 700px; 
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#pasJulie {
+    margin-top: 100px;
+}
+
+#pasJulie, #pasIngrid {
+    text-align: center;
+}
+
+.intro-text2 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom : 100px;
+    width: 700px; 
+    text-align: center;
+    font-size: 20px;
+}
+
+.titre-infos {
+    font-size: 20px;
+    text-align: center;
+}
+
+.infos-big-julie {
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700;
+    color: #BBD6FE;
+    padding: 0px !important; 
+}
+
+.infos-big-ingrid {
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFF0A2;
+    padding: 0px !important; 
+}
+
+.infos-small {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.infos {
+    margin-top: 15px;
+}
+
+.container-boutons {
+    max-width: 100% !important;
+}
+
+.boutons {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 100px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.boutons:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.bouton-julie {
+    background-color: #BBD6FE;
+    text-align: right;
+    padding-right: 40px !important;
+}
+
+.bouton-ingrid {
+    background-color: #FFF0A2;
+    text-align: left;
+    padding-left: 40px !important;
+}
+
+div.bouton-julie:nth-child(1) > img:nth-child(3) {
+    max-height: 100px;
+    padding-right: 70px;
+    margin-top: 20px;
+}
+
+div.bouton-ingrid:nth-child(2) > img:nth-child(3) {
+    max-height: 100px;
+    padding-left: 70px;
+    margin-top: 20px;
 }

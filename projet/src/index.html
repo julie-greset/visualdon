@@ -5,14 +5,88 @@
 <head>
     <link type="text/css" rel="stylesheet" href="./style/style.css">
     <title>VisualDon - Projet Confinement</title>
+    <script src="jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" href="../../node_modules/billboard.js/dist/billboard.min.css" /> <!--Import de billboard.js-->
+    <link rel="stylesheet" href="../src/style/bootstrap-grid.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100,800' rel='stylesheet'> <!--Roboto font de Google Fonts-->
 </head>
 
 <body>
-    <h1>Nos 30 premiers jours de confinement en chiffres</h1>
-    <!-- <h2>Graphique 1  - Comparaison de nos nombre de pas</h2> -->
-    <div id="graphique1"></div>
+    <div id="cover">
+        <img src="./img/illu-laurie_resize.png" alt="">
+    </div>
+    <h1>Nos 30 premiers jours de confinement <br>en chiffres</h1>
+    <div class="intro-text">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum dapibus massa sed pellentesque. Etiam eu odio mattis, elementum arcu vitae, mattis tellus. Duis interdum, odio vitae mollis efficitur, lectus massa tempus lacus, ac dapibus libero sem vel justo. Duis a rhoncus risus. Donec tincidunt massa quis sapien scelerisque placerat. Cras a est lorem. Praesent id enim quis lacus dapibus pretium. 
+        </p>
+    </div>
+
+    <div>
+        <div id="pasJulie"></div>
+        <div id="pasIngrid"></div>
+        <div id="graphique1"></div>
+    </div>
+
+    <div class="intro-text2">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum dapibus massa sed pellentesque. Etiam eu odio mattis, elementum arcu vitae, mattis tellus. Duis interdum, odio vitae mollis efficitur, lectus massa tempus lacus, ac dapibus libero sem vel justo. Duis a rhoncus risus. Donec tincidunt massa quis sapien scelerisque placerat. Cras a est lorem. Praesent id enim quis lacus dapibus pretium. 
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 titre-infos">
+                <b>Nombre de pas de Julie</b>
+                <div class="row">
+                    <div class="col-6 infos-big-julie infos" id="pourcentageJulie">
+                        <!-- JS -->
+                    </div>
+                    <div class="col-6 infos-small infos">
+                        de plus<br>
+                        qu'Ingrid
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 titre-infos">
+                <b>Nombre de pas d'Ingrid</b>
+                <div class="row">
+                    <div class="col-6 infos-big-ingrid infos">
+                        75%
+                    </div>
+                    <div class="col-6 infos-small infos">
+                        se concentrent<br>
+                        sur 4 jours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-boutons">
+        <div class="row">
+            <div class="col-6 bouton-julie boutons">
+                Qu'est-ce que Julie a fait <br>
+                avec 62'127 pas ? <br>
+                <img src="./img/arrow_icon.svg" alt="">
+            </div>
+            <div class="col-6 bouton-ingrid boutons">
+                Qu'est-ce qu'Ingrid a fait <br>
+                pendant ces 4 jours <br>
+                <img src="./img/arrow_icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container-julie" style="display: none;">
+        Julie
+    </div>
+
+    <div class="container" id="container-ingrid" style="display: none;">
+        Ingrid
+    </div>
+
     <script src="index.js"></script>
 </body>
 
