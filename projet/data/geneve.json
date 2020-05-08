@@ -1,0 +1,242 @@
+{
+    "activites": [ 
+            {
+                "nom": "Tri",
+                "thèmes": [
+                    "activités ménagères"
+                ],
+                "dates": [
+                    "06.04.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Ménage",
+                "thèmes": [
+                    "activités ménagères"
+                ],
+                "dates": [
+                    "06.04.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Devoirs scolaires",
+                "thèmes": [
+                    "études"
+                ],
+                "dates": [
+                    "30.03.20",
+                    "31.03.20",
+                    "01.04.20",
+                    "02.04.20",
+                    "03.04.20",
+                    "04.04.20",
+                    "06.04.20",
+                    "07.04.20",
+                    "08.04.20",
+                    "09.04.20",
+                    "10.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Lire l'artbook de Rick & Morty",
+                "thèmes": [
+                    "lecture"
+                ],
+                "dates": [
+                    "08.04.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Jouer à Animal Crossing",
+                "thèmes": [
+                    "jeux",
+                    "jeux vidéo"
+                ],
+                "dates": [
+                    "31.03.20",
+                    "01.04.20",
+                    "02.04.20",
+                    "03.04.20",
+                    "04.04.20",
+                    "05.04.20",
+                    "06.04.20",
+                    "07.04.20",
+                    "08.04.20",
+                    "09.04.20",
+                    "10.04.20",
+                    "11.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Jouer à New Super Mario Bros",
+                "thèmes": [
+                    "jeux",
+                    "jeux vidéo"
+                ],
+                "dates": [
+                    "07.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Apéro par visio-conférence",
+                "thèmes": [
+                    "apéro",
+                    "appel vidéo"
+                ],
+                "dates": [
+                    "31.03.20",
+                    "11.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Apéro IRL",
+                "thèmes": [
+                    "apéro",
+                    "sorties"
+                ],
+                "dates": [
+                    "04.04.20",
+                    "08.04.20",
+                    "10.04.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Sortir le chien",
+                "thèmes": [
+                    "chien",
+                    "parc",
+                    "sorties"
+                ],
+                "dates": [
+                    "29.03.20",
+                    "30.03.20",
+                    "31.03.20",
+                    "31.03.20",
+                    "01.04.20",
+                    "02.04.20",
+                    "03.04.20",
+                    "03.04.20",
+                    "04.04.20",
+                    "05.04.20",
+                    "06.04.20",
+                    "07.04.20",
+                    "07.04.20",
+                    "08.04.20",
+                    "09.04.20",
+                    "10.04.20",
+                    "11.04.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Lire Information Graphics",
+                "thèmes": [
+                    "lecture"
+                ],
+                "dates": [
+                    "08.04.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Regarder une série",
+                "thèmes": [
+                    "série"
+                ],
+                "dates": [
+                    "03.04.20",
+                    "04.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Regarder un film",
+                "thèmes": [
+                    "film"
+                ],
+                "dates": [
+                    "29.03.20",
+                    "30.03.20",
+                    "01.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Regarder un documentaire",
+                "thèmes": [
+                    "documentaire"
+                ],
+                "dates": [
+                    "11.04.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Sport sur la terasse",
+                "thèmes": [
+                    "sport"
+                ],
+                "dates": [
+                    "06.04.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Jardinage",
+                "thèmes": [
+                    "jardinage"
+                ],
+                "dates": [
+                    "11.04.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Se couper les cheveux",
+                "thèmes": [
+                    "Se couper les cheveux"
+                ],
+                "dates": [
+                    "05.04.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Sortir dans la cour intérieure",
+                "thèmes": [
+                ],
+                "dates": [
+                    "01.04.20",
+                    "03.04.20",
+                    "04.04.20",
+                    "08.04.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            }
+    ]
+}

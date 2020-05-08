@@ -1,303 +1,324 @@
 {
-    "Sortir au parc": [
-        {"thèmes": [
-            "parc"
-        ]},
-        {"dates": [
-            "13.03.20",
-            "18.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "oui"}
-    ],
-    "Jeux de société": [
-        {"thèmes": [
-            "jeux",
-            "jeux de société"    
-        ]},
-        {"dates": [
-            "15.03.20",
-            "21.03.20",
-            "27.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Faire du tri": [
-        {"thèmes": [
-            "activités ménagères"
-            ]
-        },
-        {"dates": [
-            "14.03.20",
-            "15.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Faire le ménage": [
-        {"thèmes": [
-            "activités ménagères"
-            ]
-        },
-        {"dates": [
-            "14.03.20",
-            "15.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Faire des achats en ville": [
-        {"thèmes": [
-            "achats"
-            ]
-        },
-        {"dates": [
-            "14.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "non"}
-    ],
-    "Aller à la déchetterie": [
-        {"thèmes": [
-            "activités ménagères"
-            ]
-        },
-        {"dates": [
-            "16.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "non"}
-    ],
-    "Faire les courses": [
-        {"thèmes": [
-            "achats"
-            ]
-        },
-        {"dates": [
-            "16.03.20",
-            "25.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "non"}
-    ],
-    "S'améliorer en design": [
-        {"thèmes": [
-            "amélioration personnelle",
-            "études"
-            ]
-        },
-        {"dates": [
-            "16.03.20",
-            "17.03.20",
-            "18.03.20",
-            "19.03.20",
-            "20.03.20",
-            "22.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Aller à un rendez-vous médical": [
-        {"thèmes": [
-            "médical"
-            ]
-        },
-        {"dates": [
-            "18.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "non"}
-    ],
-    "Monter des meubles": [
-        {"thèmes": [
-            "activités ménagères"
-            ]
-        },
-        {"dates": [
-            "14.03.20",
-            "15.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Faire des devoirs scolaires": [
-        {"thèmes": [
-            "études"
-            ]
-        },
-        {"dates": [
-            "23.03.20",
-            "25.03.20",
-            "26.03.20",
-            "27.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Préparer une focaccia": [
-        {"thèmes": [
-            "cuisine"
-            ]
-        },
-        {"dates": [
-            "20.03.20",
-            "23.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Suivre un cours en visio-conférence": [
-        {"thèmes": [
-            "études",
-            "appel vidéo"
-            ]
-        },
-        {"dates": [
-            "23.03.20",
-            "24.03.20",
-            "25.03.20",
-            "26.03.20",
-            "27.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Lire l'artbook de Rick & Morty": [
-        {"thèmes": [
-            "lecture"
-            ]
-        },
-        {"dates": [
-            "24.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Préparer des cookies": [
-        {"thèmes": [
-            "cuisine"
-            ]
-        },
-        {"dates": [
-            "25.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Jouer à Donkey Kong: Tropical Freeze": [
-        {"thèmes": [
-            "jeux",
-            "jeux vidéo"
-            ]
-        },
-        {"dates": [
-            "28.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Jouer à New Super Mario Bros. U Deluxe": [
-        {"thèmes": [
-            "jeux",
-            "jeux vidéo"
-            ]
-        },
-        {"dates": [
-            "27.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Faire un apéro par visio-conférence": [
-        {"thèmes": [
-            "apéro",
-            "appel vidéo"
-            ]
-        },
-        {"dates": [
-            "24.03.20",
-            "26.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Faire un apéro avec des personnes présentes physiquement": [
-        {"thèmes": [
-            "apéro"
-            ]
-        },
-        {"dates": [
-            "13.03.20",
-            "15.03.20",
-            "16.03.20",
-            "18.03.20",
-            "21.03.20",
-            "23.03.20",
-            "24.03.20",
-            "26.03.20",
-            "28.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Lire Information Graphics": [
-        {"thèmes": [
-            "lecture"
-            ]
-        },
-        {"dates": [
-            "24.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "non"}
-    ],
-    "Regarder une série": [
-        {"thèmes": [
-            "série"
-            ]
-        },
-        {"dates": [
-            "15.03.20",
-            "16.03.20",
-            "17.03.20",
-            "18.03.20",
-            "20.03.20",
-            "21.03.20",
-            "22.03.20",
-            "25.03.20",
-            "26.03.20",
-            "27.03.20",
-            "28.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Regarder un film": [
-        {"thèmes": [
-            "film"
-            ]
-        },
-        {"dates": [
-            "14.03.20",
-            "17.03.20",
-            "19.03.20",
-            "22.03.20",
-            "23.03.20"
-        ]},
-        {"ext": "non"},
-        {"ecran": "oui"}
-    ],
-    "Faire du sport au parc": [
-        {"thèmes": [
-            "sport",
-            "parc"
-            ]
-        },
-        {"dates": [
-            "18.03.20"
-        ]},
-        {"ext": "oui"},
-        {"ecran": "non"}
+    "activites": [ 
+            {
+                "nom": "Sortir au parc",
+                "thèmes": [
+                    "parc"
+                ],
+                "dates": [
+                    "13.03.20",
+                    "18.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Jeux de société",
+                "thèmes": [
+                    "jeux",
+                    "jeux de société"    
+                ],
+                "dates": [
+                    "15.03.20",
+                    "21.03.20",
+                    "27.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Tri",
+                "thèmes": [
+                    "activités ménagères"
+                    ],
+                "dates": [
+                    "14.03.20",
+                    "15.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Ménage",
+                "thèmes": [
+                    "activités ménagères"
+                    ],
+                "dates": [
+                    "14.03.20",
+                    "15.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Achats en ville",
+                "thèmes": [
+                    "achats"
+                    ]
+                ,
+                "dates": [
+                    "14.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Aller à la déchetterie",
+                "thèmes": [
+                    "activités ménagères"
+                    ]
+                ,
+                "dates": [
+                    "16.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Courses",
+                "thèmes": [
+                    "achats"
+                    ]
+                ,
+                "dates": [
+                    "16.03.20",
+                    "25.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Design",
+                "thèmes": [
+                    "amélioration personnelle",
+                    "études"
+                    ],
+                "dates": [
+                    "16.03.20",
+                    "17.03.20",
+                    "18.03.20",
+                    "19.03.20",
+                    "20.03.20",
+                    "22.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Rendez-vous médical",
+                "thèmes": [
+                    "médical"
+                    ]
+                ,
+                "dates": [
+                    "18.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            },
+            {
+                "nom": "Monter des meubles",
+                "thèmes": [
+                    "activités ménagères"
+                    ]
+                ,
+                "dates": [
+                    "14.03.20",
+                    "15.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Devoirs scolaires",
+                "thèmes": [
+                    "études"
+                    ],
+                "dates": [
+                    "23.03.20",
+                    "25.03.20",
+                    "26.03.20",
+                    "27.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Préparer une focaccia",
+                "thèmes": [
+                    "cuisine"
+                    ]
+                ,
+                "dates": [
+                    "20.03.20",
+                    "23.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Cours en visio-conférence",
+                "thèmes": [
+                    "études",
+                    "appel vidéo"
+                    ]
+                ,
+                "dates": [
+                    "23.03.20",
+                    "24.03.20",
+                    "25.03.20",
+                    "26.03.20",
+                    "27.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Lire l'artbook de Rick & Morty",
+                "thèmes": [
+                    "lecture"
+                    ]
+                ,
+                "dates": [
+                    "24.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Préparer des cookies",
+                "thèmes": [
+                    "cuisine"
+                    ]
+                ,
+                "dates": [
+                    "25.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Jouer à Donkey Kong",
+                "thèmes": [
+                    "jeux",
+                    "jeux vidéo"
+                    ]
+                ,
+                "dates": [
+                    "28.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Jouer à New Super Mario Bros",
+                "thèmes": [
+                    "jeux",
+                    "jeux vidéo"
+                    ]
+                ,
+                "dates": [
+                    "27.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Apéro par visio-conférence",
+                "thèmes": [
+                    "apéro",
+                    "appel vidéo"
+                    ]
+                ,
+                "dates": [
+                    "24.03.20",
+                    "26.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Apéro IRL",
+                "thèmes": [
+                    "apéro"
+                    ]
+                ,
+                "dates": [
+                    "13.03.20",
+                    "15.03.20",
+                    "16.03.20",
+                    "18.03.20",
+                    "21.03.20",
+                    "23.03.20",
+                    "24.03.20",
+                    "26.03.20",
+                    "28.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Lire Information Graphics",
+                "thèmes": [
+                    "lecture"
+                    ]
+                ,
+                "dates": [
+                    "24.03.20"
+                ],
+                "ext": "non",
+                "ecran": "non"
+            },
+            {
+                "nom": "Regarder une série",
+                "thèmes": [
+                    "série"
+                    ]
+                ,
+                "dates": [
+                    "15.03.20",
+                    "16.03.20",
+                    "17.03.20",
+                    "18.03.20",
+                    "20.03.20",
+                    "21.03.20",
+                    "22.03.20",
+                    "25.03.20",
+                    "26.03.20",
+                    "27.03.20",
+                    "28.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Regarder un film",
+                "thèmes": [
+                    "film"
+                    ]
+                ,
+                "dates": [
+                    "14.03.20",
+                    "17.03.20",
+                    "19.03.20",
+                    "22.03.20",
+                    "23.03.20"
+                ],
+                "ext": "non",
+                "ecran": "oui"
+            },
+            {
+                "nom": "Sport au parc",
+                "thèmes": [
+                    "sport",
+                    "parc"
+                    ]
+                ,
+                "dates": [
+                    "18.03.20"
+                ],
+                "ext": "oui",
+                "ecran": "non"
+            }
     ]
 }
