@@ -403,15 +403,3 @@ left: 0;
     top: 100%;
     left: 0;
 }
-
-div.tooltip-donut {
-    position: absolute;
-    text-align: center;
-    padding: .5rem;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border: 1px solid #313639;
-    border-radius: 2px;
-    pointer-events: none;
-    font-size: 1.3rem;
-}
