@@ -3,6 +3,8 @@ const dataProduits = require('../../data/produits.json');
 const DATA = require('../../data/typeProduit.json');
 const dataCourses = require('../../data/courses.json');
 const jquery = require("jquery");
+import d3Tip from "d3-tip";
+d3.tip = d3Tip;
 import { achats, indispo, depenses } from './prepareData-Ingrid.js'
 
 // produits totaux 
@@ -18,9 +20,14 @@ export default graphique5 => {
 	const WIDTH = 550;
 	const HEIGHT = 450;
 
-	var div = d3.select("#graphique5").append("div")
-		.attr("class", "tooltip-donut")
-		.style("opacity", 0);
+	var tip1 = d3.tip()
+	.attr('class', 'd3-tip')
+	.offset([-10, 0])
+	.html(function (d) {
+		console.log(d.data.nb)
+		let num = (Math.round((d.data.nb/nbProd ) * 100)).toString() + '%';
+		return num;
+	})
 
 	const svg = d3.select('#graphique5').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
 	d3.select("#graphique5").attr("align", "right"); // alignement du graphique
@@ -49,28 +56,9 @@ export default graphique5 => {
 		.attr('fill', color)
 		.attr("stroke", "#fff")
 		.attr("stroke-width", "2px")
-		.on('mouseover', function (d, i) {
-			d3.select(this).transition()
-				.duration('50')
-				.attr('opacity', '.60');
-			//Makes the new div appear on hover:
-			div.transition()
-			.duration(50)
-			.style("opacity", 1);
-	   let num = (Math.round((d.data.nb/nbProd ) * 100)).toString() + '%';
-	   div.html(num)
-				.style("left", (d3.event.pageX+ 10) + "px")
-				.style("top", (d3.event.pageY - 15) + "px");
-		})
-		.on('mouseout', function (d, i) {
-			d3.select(this).transition()
-				.duration('50')
-				.attr('opacity', '1');
-			//Makes the new div disappear:
-			div.transition()
-				.duration('50')
-				.style("opacity", 0);
-		});
+		.on('mouseover', tip1.show)
+        .on('mouseout', tip1.hide)
+        .call(tip1);
 
 	// la légende
 	const legend = svg.append('g')
