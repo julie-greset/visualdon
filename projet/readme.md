@@ -48,7 +48,7 @@ https://github.com/julie-greset/visualdon/tree/master/projet
 
 # Lien vers le la visualisation publiée
 
-https://julie-greset.github.io/
+https://ingridsorg.github.io/index.html
 
 # Scripts nécessaires
 

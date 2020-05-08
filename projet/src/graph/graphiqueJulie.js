@@ -120,7 +120,7 @@ export default (data, divId) => {
         })
         .attr('x', 25)
         .attr('y', function(d, i){
-            return i * 25 + 16;
+            return i * 25 + 3;
         })
         .attr('text-anchor', 'start')
         .attr('alignment-baseline', 'hanging');
