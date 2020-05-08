@@ -47,7 +47,6 @@ h1 {
     font-size: 13px;
 }
 
-
 .intro-text2 {
     margin: 0 auto;
     margin-top: 100px;
@@ -74,7 +73,7 @@ h1 {
     text-align: right;
     font-size: 60px;
     font-weight: 700;
-    color: #FFF0A2;
+    color: #FCE37A;
     padding: 0px !important; 
 }
 
@@ -134,6 +133,12 @@ div.bouton-ingrid:nth-child(2) > img:nth-child(3) {
 
 #container-julie {
     max-width: 100%;
+    padding : 0px;
+}
+
+#container-ingrid {
+    max-width: 100%;
+    padding : 0px;
 }
 
 #row-julie-titre {
@@ -180,8 +185,8 @@ code ajouté ingrid
     max-width: 100%;
 }
 
-#imgIngrid{
-    max-height: 100px;
+.imgTitre{
+    max-height: 120px;
     padding-left:50px;
     margin-top: 50px;
     margin-right: 150px;
@@ -193,14 +198,21 @@ code ajouté ingrid
     margin-top: 10px; 
     margin-right: 10px;
 }
-#entete{
+
+#enteteIngrid{
     display: flex;
     background-color: #FFF0A2;
+}
+
+#enteteJulie {
+    display: flex;
+    background-color: #A5C8FF;
 }
 
 #texte-courses1{
     display: flex;
     text-align: left;
+    font-size: 20px;
 }
 
 h2 {
@@ -216,12 +228,67 @@ h2 {
     text-align: center;
 }
 
+.infos-small-bold-ingrid {
+    color : #FCE37A;
+    font-weight: 800;
+}
+
 .chiffres-infos {
     font-size: 40px;
     text-align: center;
-    color: #FFF0A2;
-
+    color: #FCE37A;
 }
+
+#titre-ingrid {
+    margin-bottom: 100px;
+}
+
+.intro-text-ingrid {
+    margin-top: 100px;
+}
+
+#infos-1-ingrid {
+    margin-bottom: 50px;
+}
+
+#row-ingrid-text2 {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#img-courses {
+    max-width: 450px;
+}
+
+#intro-text-ingrid-2 {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.row-ingrid-infos2 {
+    margin-bottom: 120px;
+}
+
+.graphique-ingrid-titre {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.graphique-julie-titre {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+#infos-combien-de-fois-ingrid {
+    margin-top: 20px;
+}
+
+/*--------------- D3 -----------------*/
 
 .d3-tip {
     line-height: 1;
@@ -252,6 +319,7 @@ top: 100%;
 left: 0;
 }
 
+/******** JULIE ************/
 .row-infos {
     max-width: 1200px;
     margin : 0 auto;
@@ -290,6 +358,10 @@ left: 0;
     color: #A5C8FF;
 }
 
+.infos-combien-de-fois-yellow {
+    color: #FCE37A;
+}
+
 #row-julie-titre-2 {
     margin-top: 50px;
     font-size: 30px;
@@ -308,9 +380,9 @@ left: 0;
 }
 
 .intro-text-geneve p {
-    margin: 0 auto;
-    max-width: 400px;
-    text-align: center;
+    text-align: right;
+    padding-left: 300px;
+    margin-right: 100px;
 }
 
 #img-dog {
@@ -343,4 +415,3 @@ div.tooltip-donut {
     pointer-events: none;
     font-size: 1.3rem;
 }
-  

@@ -10,8 +10,6 @@ const tab = DATA.map(p=> p.nb);
 var sum = (resultat, chiffre) => resultat + chiffre
 const nbProd = tab.reduce(sum, 0);
 
-// ce graphique permet de comparer les produits habituel et les inhabituels 
-
 export default graphique6 => {
 
 	var getPieData = d3.pie().value(d => d.nb)
@@ -22,7 +20,7 @@ export default graphique6 => {
 	.style("opacity", 0);
 
 	const WIDTH = 600;
-	const HEIGHT = 400;
+	const HEIGHT = 350;
 	const svg = d3.select('#graphique6').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
 	d3.select("#graphique6").attr("align", "right"); // alignement du graphique
 
@@ -71,12 +69,9 @@ export default graphique6 => {
 				.style("opacity", 0);
 		});
 
-
-
-
 	// la légende
 	const legend = svg.append('g')
-		.attr('transform', `translate(${HEIGHT - 10})`)
+		.attr('transform', `translate(${HEIGHT - 25})`)
 
 	const RECT_WIDTH = 20
 
@@ -91,7 +86,7 @@ export default graphique6 => {
 		.attr('fill', color)
 		.attr('rx', 4)
 
-	// les noms de fruits
+	// les noms des légendes
 	legend.selectAll('text')
 		.data(pieData)
 		.enter()
@@ -101,7 +96,6 @@ export default graphique6 => {
 		.attr('width', RECT_WIDTH)
 		.attr('height', RECT_WIDTH)
 		.text(d => d.data.type)
-
 
 /*********** Informations textuelles ***********/
 	jquery("#pates").text(pates(dataProduits))

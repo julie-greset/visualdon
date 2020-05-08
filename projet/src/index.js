@@ -24,12 +24,19 @@ dessinerGraphique6('graphique6');
 
 /*********** Show/Hide ***********/
 
+function scrollTo(elementId){
+    var aTag = jquery("#"+ elementId);
+    jquery('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
 jquery(".bouton-julie").on("click", () => {
     jquery("#container-ingrid").hide();
-    jquery("#container-julie").slideDown();
+    jquery("#container-julie").show();
+    scrollTo('test');
 })
 
 jquery(".bouton-ingrid").on("click", () => {
     jquery("#container-julie").hide();
     jquery("#container-ingrid").show();
+    scrollTo('test');
 })

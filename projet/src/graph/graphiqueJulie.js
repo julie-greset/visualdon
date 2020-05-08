@@ -2,7 +2,6 @@ import * as d3 from 'd3';
 import d3Tip from "d3-tip";
 d3.tip = d3Tip;
 
-
 export default (data, divId) => {
     const nbDatesparActivites = {}; // On commence par faire le total de report de chaque activités
     data.activites.forEach(item => {
@@ -86,7 +85,6 @@ export default (data, divId) => {
         })
         .text(d => d[0])
         
-
     const axisY = d3.axisLeft().scale(yScale)
         .tickFormat(d => `${d / 1}x`)
         .ticks(5)

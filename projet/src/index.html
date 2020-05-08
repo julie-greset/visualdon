@@ -6,11 +6,8 @@
     <link type="text/css" rel="stylesheet" href="./style/style.css">
     <title>VisualDon - Projet Confinement</title>
     <script src="jquery-3.5.0.min.js"></script>
-    <link rel="stylesheet" href="../../node_modules/billboard.js/dist/billboard.min.css" />
-    <!--Import de billboard.js-->
     <link rel="stylesheet" href="../src/style/bootstrap-grid.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500,100,800' rel='stylesheet'>
-    <!--Roboto font de Google Fonts-->
 </head>
 
 <body>
@@ -29,7 +26,7 @@
             très différente. Pour en arriver là, il a fallu tout d'abord s'intéresser au nombre de pas réalisés par chacune durant
             les 30 premiers jours du confinement. Par la suite, grâce à de nombreuses données récoltées, il a été possible de créer
             divers graphiques, lesquels nous ont aidé à retracer leur chemin pour découvrir ce qu’elles ont bien pu faire.
-            <br>Bonne visualisation !
+            <br><br>Sur ce, bonne visualisation !
         </p>
     </div>
     <div>
@@ -91,9 +88,13 @@
             </div>
         </div>
     </div>
+    <div id="test"></div>
 
     <div class="container" id="container-julie" style="display: none;">
-        <div class="row" id="row-julie-titre"></div>
+        <div id="enteteJulie">
+            <img class="imgTitre" src="./img/julie_rounded.png">
+            <h1 class="titreIngrid">Qu'est-ce que Julie a fait avec 62'127 pas ?</h1>
+        </div>
         <div class="row titre-ville">
             <div class="col-12">
                 Les 16 premiers jours <br>
@@ -148,8 +149,10 @@
 
         <!---------- Graphique Lausanne ---------->
         <div class="row">
+            <div class="col-12 graphique-julie-titre">
+                Total des reports d'activités extérieures et intérieures
+            </div>
             <div class="col-12" id="graphiqueLausanne">
-                
             </div>
         </div>
     </div>
@@ -200,6 +203,7 @@
         </div>
     </div>
 
+        <!----------Genève---------------->
         <div class="row titre-ville">
             <div class="col-12">
                 Les 14 jours restants<br>
@@ -218,7 +222,6 @@
             <div class="col-6" id="img-dog-box">
                 <img src="./img/dog.svg" id="img-dog" alt="">
             </div>
-
         </div>
 
         <div class="row-infos">
@@ -260,6 +263,9 @@
 
         <!---------- Graphique Genève ---------->
         <div class="row">
+            <div class="col-12 graphique-julie-titre">
+                Total des reports d'activités extérieures et intérieures
+            </div>
             <div class="col-12" id="graphiqueGeneve">
             </div>
         </div>
@@ -315,21 +321,23 @@
 
     </div>
 
+    <!------------------INGRID---------------------->
+
     <div class="container" id="container-ingrid" style="display: none;">
-        <div id="entete">
-            <img id="imgIngrid" src="./img/ingrid_rounded.png">
+        <div id="enteteIngrid">
+            <img class="imgTitre" src="./img/ingrid_rounded.png">
             <h1 id="titreIngrid">Qu'est-ce qu'Ingrid a fait pendant ces jours ?</h1>
         </div>
-        <div class="intro-text">
+        <div class="intro-text-ingrid intro-text">
             <p>
                 Ingrid a commencé le confinement de manière officielle le 14 mars 2020.
-                Depuis ce jour-là, elle a décidé de ne plus sortir de chez elle, à moins qu'il soit nécessaire.
-                Après avoir analysé son comportement durant les 30 premiers jours, on s’est rendues
-                comptes qu’elle est sortie uniquement 9 fois de chez elle ! Mais, elle a fait quoi ces jours-là?
+                Depuis ce jour-là, elle a décidé de ne plus sortir de chez elle, à moins que cela soit nécessaire.
+                Après avoir analysé son comportement durant les 30 premiers jours, il en est
+                resortit qu'elle est sortie uniquement 9 fois de chez elle ! Mais qu'a-t-elle fait ces 9 jours ?
             </p>
         </div>
-        <div class="container graphique4">
-            <h2>Ingrid est sortie principalement pour faire ses courses !</h2>
+        <div class="container" id="infos-1-ingrid">
+            <h2 id="titre-ingrid">Ingrid est principalement sortie <br>pour faire ses courses !</h2>
             <div class="row">
                 <div class="col-6 titre-infos">
                     <b>Nombre de pas</b>
@@ -338,8 +346,8 @@
                             <!-- JS -->
                         </div>
                         <div class="col-6 infos-small infos">
-                            faits en total<br>
-                            les journées de courses
+                            pas pour<br>
+                            faire les courses
                         </div>
                     </div>
                 </div>
@@ -350,31 +358,32 @@
                             <!-- JS -->
                         </div>
                         <div class="col-6 infos-small infos">
-                            dont 5 pour<br>
+                            dont <span class="infos-small-bold-ingrid">5</span> pour<br>
                             faire des courses
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!------------Graphique 1 Ingrid---------------->
         <div id="graphique4"></div>
         <div class="container courses">
-            <h2>Qu’est-ce que Ingrid a acheté durant ces 30 jours ? </h2>
-            <div id="texte-courses1">
-                <img id="imgIngridCourses" src="./img/ingridCourses.png">
-                <p>
-                    Comme on a pu le voir, Ingrid est sortie majoritairement pour faire ses courses.
-
-                    Dans sa vie, elle n’a pas l’habitude de réflèchir à ce qu’elle a envie d’acheter ; elle
-                    a une idée de plât et elle va faire ses courses ! De plus, elle privilegie les produits frais et
-                    locaux .
-
-                    Alors cette situation a bien du avoir une influence sur la manière de faire ses courses ...
-                </p>
-
+            <h2>Qu’est-ce que Ingrid a acheté <br> durant ces 30 jours ? </h2>
+            <div class="row" id="row-ingrid-text2">
+                <div class="col-6" id="img-courses">
+                    <img src="./img/ingridCourses.png" id="img-courses" alt="">
+                </div>
+                <div class="col-6" id="intro-text-ingrid-2">
+                    <p>
+                        Comme on a pu le voir, Ingrid est sortie majoritairement pour faire ses courses.
+                        Dans sa vie, elle n’a pas l’habitude de réfléchir à ce qu’elle a envie d’acheter : elle
+                        a une idée de plat et elle va faire ses courses ! De plus, elle privilégie les produits frais et
+                        locaux. La situation particulière a donc dû avoir une influence sur sa manière de faire ses courses...
+                    </p>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-6 titre-infos">
+            <div class="row row-ingrid-infos2">
+                <div class="col-4 titre-infos">
                     <b>Nombre de produits achetés</b>
                     <div class="row">
                         <div class="col-6 infos-big-ingrid infos" id="nbProduit">
@@ -382,49 +391,65 @@
                         </div>
                         <div class="col-6 infos-small infos">
                             produits <br>
+                            différents
                         </div>
                     </div>
                 </div>
-                <div class="col-6 titre-infos">
+                <div class="col-4 titre-infos">
                     <b>Nombre de produits indisponibles</b>
                     <div class="row">
                         <div class="col-3 infos-big-ingrid infos" id="indispo">
                             <!-- JS -->
                         </div>
                         <div class="col-6 infos-small infos">
-                            dont une fois<br>
+                            dont <span class="infos-small-bold-ingrid">1</span> fois<br>
                             du papier toilette
                         </div>
                     </div>
                 </div>
-                <div class="col-6 titre-infos">
+                <div class="col-4 titre-infos">
                     <b>Argent dépensé en courses</b>
                     <div class="row">
-                        <div class="col-6 infos-big-ingrid infos" id="depenses">
+                        <div class="col-12 infos-big-ingrid infos" id="depenses">
                             <!-- JS -->
                         </div>
-                        <div class="col-6 infos-small infos">
+                        <!-- <div class="col-6 infos-small infos">
                             CHF <br>
                             en 30 jours
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-            <div id="graphique5"></div>
-            <div id="graphique6"></div>
-            <br>
+            <!------------Graphique 2 & 3 Ingrid---------------->
             <div class="row">
-                <div class="col-6 texte-infos">
-                    <b> Pâtes achetés</b>
-                        <div class="col-6 chiffres-infos" id="pates">
-                            <!-- JS -->
-                        </div>
+                <div class="col-6">
+                    <div class="graphique-ingrid-titre">
+                        Produits durable vs frais
+                    </div>
+                    <div id="graphique5"></div>
                 </div>
-                <div class="col-6 texte-infos">
-                    <b>Coca zero achetés</b>
-                        <div class="col-6 chiffres-infos" id="coca">
+                <div class="col-6">
+                    <div class="graphique-ingrid-titre">
+                        Produits inhabituels vs habituels
+                    </div>
+                    <div id="graphique6"></div>
+                </div>
+            </div>
+            <!-- <div id="graphique5"></div>
+            <div id="graphique6"></div> -->
+            <br>
+            <div class="row" id="infos-combien-de-fois-ingrid">
+                <div class="col-6 infos-combien-de-fois">
+                    <b> Pâtes achetées</b>
+                        <span class="col-6 infos-combien-de-fois-yellow" id="pates">
                             <!-- JS -->
-                        </div>
+                        </span>
+                </div>
+                <div class="col-6 infos-combien-de-fois">
+                    <b>Coca zero achetés</b>
+                        <span class="col-6 infos-combien-de-fois-yellow" id="coca">
+                            <!-- JS -->
+                        </span>
                 </div>
         </div>
     </div>

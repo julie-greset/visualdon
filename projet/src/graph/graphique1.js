@@ -7,7 +7,6 @@ import images from '../img/*.png';
 import {pourcent} from './prepareData-Ingrid.js'
 
 const data = require('../../data/dates.json');
-const pasTotaux = data.julie.map(item => item.pas).reduce((accumulator, currentValue) => accumulator + currentValue) + data.julie.map(item => item.pas).reduce((accumulator, currentValue) => accumulator + currentValue);
 const julieImage  = 'julie_rounded';
 const ingridImage  = 'ingrid_rounded';
 const jquery = require("jquery");

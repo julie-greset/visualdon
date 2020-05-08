@@ -114,7 +114,6 @@ export function indispo(dataProduits) {
   const dispo = dataProduits
     .filter(p => p.Disponible === "non")
     .map(d => ({ produit: d.Produit }))
-  console.log(dispo);
 
   const nbProd = dispo.length;
 
@@ -129,7 +128,6 @@ export function type() {
   // Types uniques
 
   const tabTypes = R.uniq(dataProduits.map(d => d.type));
-  console.log(tabTypes)
   // compter les occurences en filtrant par type et en retournant le nombre d'éléments avec `.length`
   const occurencesParType = type => dataProduits.filter(d => d.type === type).length
   const resultat = tabTypes.map(type => ({

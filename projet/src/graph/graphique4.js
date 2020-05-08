@@ -6,8 +6,6 @@ const data = require('../../data/nbPas-Ingrid.json');
 const jquery = require("jquery");
 import { sorties, sortiesCourses} from './prepareData-Ingrid.js'
 
-
-
 export default graphique4 => {
 
     const WIDTH = 1400
@@ -28,8 +26,19 @@ export default graphique4 => {
             return "Pas : " + d.pas;
         })
 
+    function color(p) {
+        switch (p.date) {
+            case '14.03.20': return '#ff7589'
+            case '16.03.20': return '#ff7589'
+            case '19.03.20': return '#ff7589'
+            case '24.03.20': return '#ff7589'
+            case '04.04.20': return '#ff7589'
+            default: return '#fff0a3'
+        }
+    }
+
     const svg = d3.select('#graphique4').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
-    d3.select("#graphique4"); // alignement du graphique
+    d3.select("#graphique4").attr("align", "center"); // alignement du graphique
 
     // NOUVEAU diviser par 2 pour avoir la place
     const BAR_WIDTH = GRAPH_WIDTH / data.length // largeur des batons
@@ -47,7 +56,7 @@ export default graphique4 => {
         .enter()
         .append('rect')
         // NOUVEAU multiplié par 2
-        .attr('fill', '#FFF0A3')
+        .attr('fill', function (d) { return color(d); })
         .attr('x', (d, i) => (i * BAR_WIDTH)) // position horizontale
         .attr('width', BAR_WIDTH - MARGIN) // largeur
         .attr('y', d => yScale(d.pas)) // position verticale
@@ -58,7 +67,7 @@ export default graphique4 => {
         .call(tip1);
 
     const dates = svg.append('g')
-        .attr('transform', `translate(${MARGIN_LEFT - 20}, 20)`)
+        .attr('transform', `translate(${MARGIN_LEFT - 9}, 20)`)
 
     dates.selectAll('text')
         .data(data)
@@ -80,6 +89,43 @@ export default graphique4 => {
 
         .tickFormat(d => `${d / 1} pas`)
         .ticks(5)
+        .tickSizeOuter(0)
+
+
+    ///////// Légendes
+
+    var legend = svg.append('g')
+    .attr('class', 'legend')
+    .attr('transform', 'translate(900, 100)');
+
+    const coursesOuAutres = [["Courses", "#F77F89"], ["Autres", "#FFF0A2"]]
+
+    legend.selectAll('rect')
+        .data(coursesOuAutres)
+        .enter()
+        .append('rect')
+        .attr('x', 0)
+        .attr('y', function(d, i){
+            return i * 25;
+        })
+        .attr('width', 20)
+        .attr('height', 20)
+        .attr('fill', d => d[1])
+        .attr('rx', 3)
+    
+    legend.selectAll('text')
+        .data(coursesOuAutres)
+        .enter()
+        .append('text')
+        .text(d => {
+            return d[0];
+        })
+        .attr('x', 25)
+        .attr('y', function(d, i){
+            return i * 25 + 16;
+        })
+        .attr('text-anchor', 'start')
+        .attr('alignment-baseline', 'hanging');
 
     svg.append('g')
         .attr('transform', `translate(${MARGIN_LEFT - 3}, ${MARGIN_TOP})`)

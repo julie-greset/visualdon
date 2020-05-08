@@ -11,14 +11,12 @@ const tab = DATA.map(p=> p.nb);
 var sum = (resultat, chiffre) => resultat + chiffre
 const nbProd = tab.reduce(sum, 0);
 
-
-
 export default graphique5 => {
 
 	var getPieData = d3.pie().value(d => d.nb)
 	var pieData = getPieData(DATA)
-	const WIDTH = 700;
-	const HEIGHT = 500;
+	const WIDTH = 550;
+	const HEIGHT = 450;
 
 	var div = d3.select("#graphique5").append("div")
 		.attr("class", "tooltip-donut")
@@ -76,7 +74,7 @@ export default graphique5 => {
 
 	// la légende
 	const legend = svg.append('g')
-		.attr('transform', `translate(${HEIGHT - 10})`)
+		.attr('transform', `translate(${HEIGHT - 25})`)
 
 	const RECT_WIDTH = 20
 
@@ -100,13 +98,12 @@ export default graphique5 => {
 		.attr('y', (d, i) => i * RECT_WIDTH + RECT_WIDTH * 0.75)
 		.attr('width', RECT_WIDTH)
 		.attr('height', RECT_WIDTH)
-		.text(d => "Produit " + d.data.type)
+		.text(d => (d.data.type).charAt(0).toUpperCase()+d.data.type.slice(1))
 
 	/*********** Informations textuelles ***********/
 	jquery("#nbProduit").text(achats(dataProduits))
 	jquery("#indispo").text(indispo(dataProduits))
-	jquery("#depenses").text(depenses(dataCourses))
-
+	jquery("#depenses").text(depenses(dataCourses)+" CHF")
 }
 
 

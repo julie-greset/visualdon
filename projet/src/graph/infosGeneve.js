@@ -1,9 +1,3 @@
-// import { select } from 'd3'
-// import * as d3 from 'd3';
-import bb from 'billboard.js'
-import images from '../img/*.png';
-import { SVG } from '@svgdotjs/svg.js'
-
 const dataIngridJulie = require('../../data/dates.json');
 const data = require('../../data/geneve.json');
 const jquery = require("jquery");

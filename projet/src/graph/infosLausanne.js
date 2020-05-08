@@ -1,19 +1,15 @@
-import images from '../img/*.png';
-import { SVG } from '@svgdotjs/svg.js'
-
 const dataIngridJulie = require('../../data/dates.json');
 const data = require('../../data/lausanne.json');
 const jquery = require("jquery");
-const julieImage  = 'julie_rounded';
 
 export default ecrireLausanne => {
 
-    /*********** Titre ***********/
+    // /*********** Titre ***********/
    
-    var drawJulie = SVG().addTo('#row-julie-titre').size('100%', 150);
-    drawJulie.rect('100%', 80).fill('#A5C8FF').move(40, 37.5);
-    drawJulie.text("Qu'est-ce que Julie a fait avec 62'127 pas ?").move(200, 75);
-    drawJulie.image(images[julieImage]).size(150, 150).move;
+    // var drawJulie = SVG().addTo('#row-julie-titre').size('100%', 150);
+    // drawJulie.rect('100%', 80).fill('#A5C8FF').move(40, 37.5);
+    // drawJulie.text("Qu'est-ce que Julie a fait avec 62'127 pas ?").move(200, 75);
+    // drawJulie.image(images[julieImage]).size(150, 150).move;
 
     /*********** Informations textuelles avant graphique ***********/
 
