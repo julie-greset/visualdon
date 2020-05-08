@@ -172,6 +172,56 @@ div.bouton-ingrid:nth-child(2) > img:nth-child(3) {
     font-family: 'Roboto';
     font-size: 15px;
 }
+/*
+code ajouté ingrid 
+*/
+
+#container-ingrid.container {
+    max-width: 100%;
+}
+
+#imgIngrid{
+    max-height: 100px;
+    padding-left:50px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+#imgIngridCourses{
+    max-height: 400px;
+    padding-left:0px;
+    margin-top: 10px; 
+    margin-right: 10px;
+}
+#entete{
+    display: flex;
+    background-color: #FFF0A2;
+}
+
+#texte-courses1{
+    display: flex;
+    text-align: left;
+}
+
+h2 {
+    margin-top : 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.texte-infos {
+    font-size: 30px;
+    text-align: center;
+}
+
+.chiffres-infos {
+    font-size: 40px;
+    text-align: center;
+    color: #FFF0A2;
+
+}
 
 .d3-tip {
     line-height: 1;
@@ -274,3 +324,23 @@ left: 0;
 #activite-favorite-geneve {
     font-size: 40px;
 }
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+div.tooltip-donut {
+    position: absolute;
+    text-align: center;
+    padding: .5rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 1px solid #313639;
+    border-radius: 2px;
+    pointer-events: none;
+    font-size: 1.3rem;
+}
+  

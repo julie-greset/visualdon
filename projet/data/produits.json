@@ -1,0 +1,762 @@
+[
+	{
+		"Produit": "cabas",
+		"type": "durable",
+		"Qtte": 2,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "chewing gum",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Huile d'olive",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Spaghetti",
+		"type": "durable",
+		"Qtte": 3,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Sauce tomate ",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Boite de thon ",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Conserve petit pois/carotte",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Mélange falafels",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Miel",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Chips",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Chanterelles séchées",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Pain pré-cuit",
+		"type": "durable",
+		"Qtte": 8,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Papier toilette ",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Burger cornatur",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Rösti ",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Lait",
+		"type": "frais",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Oeufs",
+		"type": "durable",
+		"Qtte": 12,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Nuggets cornatur",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Spätzli",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Pates",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Triangles cornatur ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Tomates cherry",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Pates",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Ognions frais",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Lait de coco",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Tortellini",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Lentilles rouges ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Pesto ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Nourriture pour chat",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Müsli",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Ail",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Noodles instantanés",
+		"type": "durable",
+		"Qtte": 3,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Café moulu ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Coca Zero",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 1
+	},
+	{
+		"Produit": "Coca Zero",
+		"type": "durable",
+		"Qtte": 6,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 2 
+	},
+	{
+		"Produit": "Papier toilette ",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 2 
+	},
+	{
+		"Produit": "Burrata",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 2 
+	},
+	{
+		"Produit": "Dentifrice",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Fraises ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Grana padano",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Laitue ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Mouchoirs",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Mascara",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Anti cernes",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Tomme vaudoise ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Salade ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Café en capsules ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Pain pré-cuit",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Coca Zero",
+		"type": "durable",
+		"Qtte": 6,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Eau gazeuse x6",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "Ognions frais",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 3
+	},
+	{
+		"Produit": "cabas",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Sucre fin ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Encre pour imprimante",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "non",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Farine ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Burrata",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Eau gazeuse x6",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 4
+	},
+	{
+		"Produit": "Yogourt nature",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Produitdésinfectant surface",
+		"type": "peu durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "non",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Oeufs",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Crème ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Mozzarella ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Pates lassagne ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Coloration pour cheveux ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Ricotta",
+		"type": "frais",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Kiri",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Lait",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Beurre",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Tortillas au maïs ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Café en capsules ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Frites au four ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Chips",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Fromage fondu",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Spaghetti",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Pates",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Boite de thon ",
+		"type": "durable",
+		"Qtte": 3,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Nourriture pour chat",
+		"type": "peu durable",
+		"Qtte": 4,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Dentifrice",
+		"type": "peu durable",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Müsli",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Conserve tomates pelées",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Escaloppe cornature ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Burger cornatur",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Buns",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Pain anglais",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Flocons d'avoine ",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Pain pré-cuit",
+		"type": "durable",
+		"Qtte": 1,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Ognions frais",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Courgette",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Citron",
+		"type": "durable",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Oranges ",
+		"type": "frais",
+		"Qtte": 6,
+		"Habitude": "non",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Epinards ",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Tomates cherry",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Rucola",
+		"type": "frais",
+		"Qtte": 1,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Pâte à pizza",
+		"type": "frais",
+		"Qtte": 3,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	},
+	{
+		"Produit": "Avocats",
+		"type": "frais",
+		"Qtte": 2 ,
+		"Habitude": "oui",
+		"Disponible": "oui",
+		"Ticket nb": 5
+	}
+]

@@ -4,6 +4,8 @@ d3.tip = d3Tip;
 import { SVG } from '@svgdotjs/svg.js'
 import images from '../img/*.png';
 
+import {pourcent} from './prepareData-Ingrid.js'
+
 const data = require('../../data/dates.json');
 const pasTotaux = data.julie.map(item => item.pas).reduce((accumulator, currentValue) => accumulator + currentValue) + data.julie.map(item => item.pas).reduce((accumulator, currentValue) => accumulator + currentValue);
 const julieImage  = 'julie_rounded';
@@ -136,4 +138,5 @@ export default graphique1 => {
   /*********** Informations textuelles ***********/
   const pourcentageJulie = (((pasJulie-pasIngrid)/pasJulie)*100).toFixed(0);
   jquery("#pourcentageJulie").text(pourcentageJulie+"%")
+  jquery("#pourcentageIngrid").text(pourcent(data.ingrid)+"%")
 }
