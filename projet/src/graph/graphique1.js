@@ -5,6 +5,7 @@ import { SVG } from '@svgdotjs/svg.js'
 import images from '../img/*.png';
 
 import pasTotaux from './prepareGraphique1'
+import {pourcent} from './prepareData-Ingrid.js'
 
 const data = require('../../data/dates.json');
 const julieImage  = 'julie_rounded';
@@ -68,4 +69,5 @@ export default graphique1 => {
   const pourcentageJulie = (((pasJulie-pasIngrid)/pasJulie)*100).toFixed(0);
   console.log(pourcentageJulie);
   jquery("#pourcentageJulie").text(pourcentageJulie+"%")
+  jquery("#pourcentageIngrid").text(pourcent(data.ingrid)+"%")
 }

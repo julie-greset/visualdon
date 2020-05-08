@@ -1,0 +1,14 @@
+[
+  {
+    "type": "durable",
+    "nb": 60
+  },
+  {
+    "type": "frais",
+    "nb": 26
+  },
+  {
+    "type": "peu durable",
+    "nb": 9
+  }
+]
