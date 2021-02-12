@@ -3,11 +3,11 @@
 La création de cette application a été réalisée dans le cadre du cours *DévMobile* à la HEIG-VD. Le but de ce clours était d'apprendre à développer une application mobile hybride, dans le but de la télécharger sur l'Apple Store et le Play Store.
 
 # Table des matières
-* [L'application](#technologies)
-* Technologies
-* Installation
-* Lancer l'application
-* Démo
+* [L'application](#lapplication)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Lancer l'application](#lancer-lapplication)
+* [Démo](#démo)
 
 # L'application
 Dog walk permet aux promeneur·ses de chiens de pouvoir partager les balades qu'ils·elles font ! Après s'être inscrit·e sur l'application, un·e membre peut ajouter une balade et voir toutes les balades partagées par la communauté. Grâce à une carte qui affiche toutes les balades, l'utilisateur·rice peut voir les balades qui ont été faites à proximité de sa position GPS.
