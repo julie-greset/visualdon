@@ -5,7 +5,7 @@ La création de cette application a été réalisée dans le cadre du cours *Dé
 # Table des matières
 * L'application
 * Technologies
-* Set up
+* Installation
 * Lancer l'application
 * Démo
 
@@ -16,8 +16,8 @@ Dog walk permet aux promeneur·ses de chiens de pouvoir partager les balades qu'
 * Inscription
 * Chercher une balade
 * Voir les détails d'une balade
-* Créer une balade et créer des places visitées lors de cette balade
-* Prendre des photos d'une place visitée
+* Créer une balade et créer des endroits visités lors de cette balade
+* Prendre des photos d'un endroit visité
 * Voir son compte utilisateur·rice
 * Modifier son nom d'utilisateur·rice
 * Supprimer son compte utilisateur·rice
@@ -33,3 +33,18 @@ Le projet a été créé grâce aux technologies suivantes :
 * [Leaflet v.1.7.1](https://leafletjs.com/)
 * [HTML5](https://dev.w3.org/html5/html-author/)
 * [CSS](https://www.w3.org/Style/CSS/)
+
+# Installation
+```
+git clone git@github.com:Stephane-panda/Travel-log-Devmobile
+cd Travel-log-Devmobile
+npm install
+```
+
+# Lancer l'application
+# Démo
+## Login ou création d'un compte
+## Voir toutes les balades, chercher une balade et voir les détails d'une balade
+## Voir la carte et les balades à proximité
+## Ajouter une balade avec des endroits visités
+## Voir son compte utilisateur·rice, modifier son nom et voir ses balades
