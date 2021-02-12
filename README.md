@@ -3,7 +3,7 @@
 La création de cette application a été réalisée dans le cadre du cours *DévMobile* à la HEIG-VD. Le but de ce clours était d'apprendre à développer une application mobile hybride, dans le but de la télécharger sur l'Apple Store et le Play Store.
 
 # Table des matières
-* L'application
+* [L'application](#technologies)
 * Technologies
 * Installation
 * Lancer l'application
