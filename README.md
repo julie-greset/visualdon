@@ -45,8 +45,13 @@ npm install
 ![alt text](https://www.zupimages.net/up/21/06/zn7u.png "Login")  
 ![alt text](https://www.zupimages.net/up/21/06/y261.png "Inscription")
 ## Voir toutes les balades, chercher une balade et voir les détails d'une balade
+![alt text](https://www.zupimages.net/up/21/06/ruwy.png "Liste des balades")  
+![alt text](https://www.zupimages.net/up/21/06/hitc.png "Recherche")  
+![alt text](https://www.zupimages.net/up/21/06/gmrb.png "Détails d'une balade")
 ## Voir la carte et les balades à proximité
-## Ajouter une balade avec des endroits visités
+![alt text](https://www.zupimages.net/up/21/06/nld5.png)
+## Ajouter une balade
+![alt text](https://www.zupimages.net/up/21/06/wi13.png "Ajouter une balade")
 ## Voir son compte utilisateur·rice, modifier son nom et voir ses balades
 ![alt text](https://www.zupimages.net/up/21/06/r8fi.png "Compte")  
 ![alt text](https://www.zupimages.net/up/21/06/ly19.png "Modifer le nom")  
