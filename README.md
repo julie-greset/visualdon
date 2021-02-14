@@ -48,6 +48,6 @@ npm install
 ## Voir la carte et les balades à proximité
 ## Ajouter une balade avec des endroits visités
 ## Voir son compte utilisateur·rice, modifier son nom et voir ses balades
-![alt text](https://www.zupimages.net/up/21/06/r8fi.png "Compte")
-![alt text](https://www.zupimages.net/up/21/06/ly19.png "Modifer le nom")
+![alt text](https://www.zupimages.net/up/21/06/r8fi.png "Compte")  
+![alt text](https://www.zupimages.net/up/21/06/ly19.png "Modifer le nom")  
 ![alt text](https://www.zupimages.net/up/21/06/1wni.png "Supprimer le compte")
