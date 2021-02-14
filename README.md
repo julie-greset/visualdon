@@ -41,7 +41,7 @@ cd Travel-log-Devmobile
 npm install
 ```
 # Démo
-## Login ou création d'un compte
+## Login et création d'un compte
 ![alt text](https://www.zupimages.net/up/21/06/zn7u.png "Login")  
 ![alt text](https://www.zupimages.net/up/21/06/y261.png "Inscription")
 ## Voir toutes les balades, chercher une balade et voir les détails d'une balade
