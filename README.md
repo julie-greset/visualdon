@@ -40,11 +40,12 @@ git clone git@github.com:Stephane-panda/Travel-log-Devmobile
 cd Travel-log-Devmobile
 npm install
 ```
-
-# Lancer l'application
 # Démo
 ## Login ou création d'un compte
+![alt text](https://www.zupimages.net/up/21/06/zn7u.png "Login")  
+![alt text](https://www.zupimages.net/up/21/06/y261.png)
 ## Voir toutes les balades, chercher une balade et voir les détails d'une balade
+![alt text]()
 ## Voir la carte et les balades à proximité
 ## Ajouter une balade avec des endroits visités
 ## Voir son compte utilisateur·rice, modifier son nom et voir ses balades
